@@ -206,9 +206,11 @@ function App() {
       <footer className="bg-blue-900 text-white text-center py-6">
         &copy; 2024 Backroad Handwash. All rights reserved.
       </footer>
+      
     </div>
     
   );
 }
+console.log("Google Maps API Key:", process.env.REACT_APP_GOOGLE_MAPS_API_KEY);
 
 export default App;
